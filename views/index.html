@@ -26,10 +26,29 @@
             <input id="dat" type="text" name="date" placeholder="date (yyyy-mm-dd)">
             <input type="submit" value="Submit">
           </form>
+          <p><strong>GET all users: </strong><code>GET /api/exercise/users</code></p>
+          <p>
+            <strong>Example Usage:</strong> 
+            <a href="/api/exercise/users">
+              [base_url]/api/exercise/users
+            </a>
+          </p>
+          <br>
           <p><strong>GET users's exercise log: </strong><code>GET /api/exercise/log?{userId}[&amp;from][&amp;to][&amp;limit]</code></p>
           <p><strong>{ }</strong> = required, <strong>[ ]</strong> = optional</p>
           <p><strong>from, to</strong> = dates (yyyy-mm-dd); <strong>limit</strong> = number</p>
+          <p>
+            <strong>Example Usage:</strong> 
+            <a href="/api/exercise/log?userId=5c4b4e39a986ca1f11063a9f&from=2018-07-01&to=2018-12-31&limit=2">
+              [base_url]/api/exercise/log?userId=5c4b4e39a986ca1f11063a9f&from=2018-07-01&to=2018-12-31&limit=2
+            </a>
+          </p>
+          <br>
       </div>
    </body>
-
+   <footer>
+      <p>
+        by <a href="https://twitter.com/nyxerys">Ana Rodrigues</a>
+      </p>
+   </footer>
 </html>
