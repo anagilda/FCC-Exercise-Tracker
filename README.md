@@ -21,10 +21,14 @@
 
 
 - GET all users: GET /api/exercise/users
-Example Usage: [[base_url]/api/exercise/users](https://deep-icecream.glitch.me/api/exercise/users)
+
+    Example Usage: [[base_url]/api/exercise/users](https://deep-icecream.glitch.me/api/exercise/users)
 
 
 - GET users's exercise log: GET /api/exercise/log?{userId}[&from][&to][&limit]
-{ } = required, [ ] = optional
-from, to = dates (yyyy-mm-dd); limit = number
-Example Usage: [[base_url]/api/exercise/log?userId=5c4b4e39a986ca1f11063a9f&from=2018-07-01&to=2018-12-31&limit=2](https://deep-icecream.glitch.me/api/exercise/log?userId=5c4b4e39a986ca1f11063a9f&from=2018-07-01&to=2018-12-31&limit=2)
+
+    { } = required, [ ] = optional
+
+    from, to = dates (yyyy-mm-dd); limit = number
+
+    Example Usage: [[base_url]/api/exercise/log?userId=5c4b4e39a986ca1f11063a9f&from=2018-07-01&to=2018-12-31&limit=2](https://deep-icecream.glitch.me/api/exercise/log?userId=5c4b4e39a986ca1f11063a9f&from=2018-07-01&to=2018-12-31&limit=2)
