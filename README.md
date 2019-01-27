@@ -15,17 +15,17 @@
 
 #### Usage:
 
-POST [project_url]/api/exercise/new-user - body (username encoded) 
+- POST [project_url]/api/exercise/new-user - body (username encoded) 
 
-POST [project_url]/api/exercise/add - body (userId, duration, description and date encoded)
+- POST [project_url]/api/exercise/add - body (userId, duration, description and date encoded)
 
 
-GET all users: GET /api/exercise/users
+- GET all users: GET /api/exercise/users
 
 Example Usage: [[base_url]/api/exercise/users](https://deep-icecream.glitch.me/api/exercise/users)
 
 
-GET users's exercise log: GET /api/exercise/log?{userId}[&from][&to][&limit]
+- GET users's exercise log: GET /api/exercise/log?{userId}[&from][&to][&limit]
 
 { } = required, [ ] = optional
 
